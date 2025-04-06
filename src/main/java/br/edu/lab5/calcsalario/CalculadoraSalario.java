@@ -1,4 +1,4 @@
-package br.edu.lab5;
+package br.edu.lab5.calcsalario;
 
 public class CalculadoraSalario {
 

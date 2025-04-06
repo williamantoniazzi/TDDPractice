@@ -1,5 +1,8 @@
-package br.edu.lab5;
+package br.edu.lab5.calsalario;
 
+import br.edu.lab5.calcsalario.CalculadoraSalario;
+import br.edu.lab5.calcsalario.CargoEnum;
+import br.edu.lab5.calcsalario.Funcionario;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
