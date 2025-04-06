@@ -1,12 +1,15 @@
 # TDDPractice
-
 Exercícios Práticos de TDD - Entrega INDIVIDUAL (Sala e Extraclasse)
 Laboratório de Desenvolvimento de Banco de Dados 5
 FATEC São José dos Campos - Prof. Jessen Vidal
 
 ## Enunciado das atividades:
+Diretórios main: [triangulo, person, calcSalario](src/main/java/br/edu/lab5)
+<br>
+Diretórios testes: [triaguloTest, personTest, calcSalarioTest](src/test/java/br/edu/lab5)
 
-### [Exercício 1 - Triângulo](src/main/java/br/edu/lab5/triangulo)
+
+### Exercício 1 - Triângulo
 Crie um conjunto de casos de teste para validar o programa a seguir:
 
 "O programa lê três valores inteiros que representam os lados de um triângulo. O programa informa se os lados formam um triângulo isósceles, escaleno ou equilátero."
@@ -28,7 +31,7 @@ Condição: a soma de dois lados tem que ser maior que o terceiro lado.</br>
   11. Um CT para os três valores iguais a zero
 
 
-### [Exercício 2](src/main/java/br/edu/lab5/person) 
+### Exercício 2 - Person 
 Considerando o conjunto de classes abaixo. Utilizando um a técnica de TDD, implemente o método isValidToInclude(). Esse método deve retornar uma lista de erros com base no objeto Person passado como parâmetro. Deve ser validado:
 
 - O nome é composto por ao menos 2 partes e deve ser composto de letras
@@ -39,7 +42,7 @@ Considerando o conjunto de classes abaixo. Utilizando um a técnica de TDD, impl
 ![Person Image](exercicio2.png)
 
 
-### [Exercício 3 - Calculadora de salário](src/main/java/br/edu/lab5/calcsalario) 
+### Exercício 3 - Calculadora de salário 
 Aplicando a técnica de Test Driven Development (TDD), desenvolva as classes necessárias para resolver o problema descrito abaixo:
 
 O participante deve implementar uma calculadora de salário de funcionários. Um funcionário contém nome, email, salário-base e cargo. De acordo com seu cargo, a regra para cálculo do salário líquido é diferente:
