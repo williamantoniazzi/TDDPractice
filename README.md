@@ -6,7 +6,7 @@ FATEC São José dos Campos - Prof. Jessen Vidal
 
 ## Enunciado das atividades:
 
-### [Exercício 1 - Triângulo]()
+### [Exercício 1 - Triângulo](src/main/java/br/edu/lab5/triangulo)
 Crie um conjunto de casos de teste para validar o programa a seguir:
 
 "O programa lê três valores inteiros que representam os lados de um triângulo. O programa informa se os lados formam um triângulo isósceles, escaleno ou equilátero."
@@ -39,7 +39,7 @@ Considerando o conjunto de classes abaixo. Utilizando um a técnica de TDD, impl
 ![Person Image](exercicio2.png)
 
 
-### [Exercício 3 - Calculadora de salário]() 
+### [Exercício 3 - Calculadora de salário](https://github.com/williamantoniazzi/TDDPractice/tree/main/src/main/java/br/edu/lab5/calcsalario) 
 Aplicando a técnica de Test Driven Development (TDD), desenvolva as classes necessárias para resolver o problema descrito abaixo:
 
 O participante deve implementar uma calculadora de salário de funcionários. Um funcionário contém nome, email, salário-base e cargo. De acordo com seu cargo, a regra para cálculo do salário líquido é diferente:

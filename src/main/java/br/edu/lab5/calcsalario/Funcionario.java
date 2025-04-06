@@ -4,11 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @AllArgsConstructor
+@Getter
 public class Funcionario {
     private String nome;
     private String email;
-    @Getter
     private Double salarioBase;
-    @Getter
     private CargoEnum cargo;
 }
